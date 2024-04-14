@@ -1,0 +1,140 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #B96D79;
+    padding: 4rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.optContainer {
+    background-color: #B96D79;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.three {
+    display: flex;
+    border: none;
+    padding: 1.9rem 5.5rem;
+    border-radius: 8px;
+    gap: 4rem;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.optOne, .optTwo, .optThree {
+    display: flex;
+    gap: 0.5rem;
+}
+
+span {
+    color: #B96D79;
+    font-size: 2.7rem;
+}
+
+h3 { 
+    color: rgba(40,126,85,1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.ctgContainer {
+    margin-left: 3rem;
+    width: 92%;
+    height: auto;
+    display: flex;
+    margin-top: 8rem;
+    justify-content: space-between;
+}
+
+.ctgContainer > .left {
+    height: 70rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 110rem;
+}
+
+.right > .txt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    width: 95%;
+}
+
+.txt > h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.txt > .logo {
+    background-image: url("/img/nome.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24rem; 
+    height: 2rem;
+    margin-left: -2.2rem;
+}
+
+.txt > .lado {
+    margin-left: -1rem;
+}
+
+
+.right > .boxs {
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+
+.boxs > .line {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.line > .box {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    height: auto;
+    transition: all 0.4s ease-in-out;
+    width: 30rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.line > .box:hover {
+    transform: scale(1.1);
+}
+
+.box > p {
+    font-family: "Montserrat", sans-serif;
+    color: #B96D79 ;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+
+

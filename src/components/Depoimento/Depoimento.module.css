@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #C6C6C6;
+    padding: 5rem 4rem 0 4rem;
+}
+
+.container > h1 {
+    color: #B96D79;
+}
+
+.depoContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.depoContainer > .depo {
+    background-image: url("/img/depo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22rem;
+    height: 16rem;
+    border-radius: 8px;
+}
+
+.depoContainer > .depo2 {
+    background-image: url("/img/depo2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 17rem;
+    height: 20rem;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.depoContainer > .depo3 {
+    background-image: url("/img/depo3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+.final {
+    border-bottom: 1px solid #000000;
+    margin-top: 6rem;
+}

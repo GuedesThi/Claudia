@@ -1,0 +1,145 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #C6C6C6;
+    padding: 3.5rem 4rem 0 4rem;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: #B96D79 ;
+    font-weight: 500
+}
+
+.pilarContainer {
+    width: 100%;
+    height: 30rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pilar {
+    width: 20rem;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.pilar > .topo1 {
+    width: 100%;
+    height: 14rem;
+    background-image: url("/img/pilarUm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pilar > .topo2 {
+    width: 100%;
+    height: 14rem;
+    background-image: url("/img/pilar2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pilar > .topo3 {
+    width: 100%;
+    height: 14rem;
+    background-image: url("/img/pilar3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pilar > .topo4 {
+    width: 100%;
+    height: 14rem;
+    background-image: url("/img/pilar4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pilar > .topo5 {
+    width: 100%;
+    height: 14rem;
+    background-image: url("/img/pilar5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pilar > .topo6 {
+    width: 100%;
+    height: 14rem;
+    background-image: url("/img/pilar6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pilar > .resto {
+    background-color: #B96D79;
+    width: 100%;
+    height: 16rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+
+.resto > .name {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    width: 5.6rem;
+    margin-left: 1rem;
+    position: absolute;
+    top: -1.4rem;
+}
+
+.name > span {
+    color: #B96D79;
+    font-family: "Montserrat";
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.resto > .titulo {
+    border-bottom: 1px solid #C6C6C6;
+    height: 6rem;
+    width: 85%;
+    margin-left: 1.2rem;
+}
+
+.titulo > h1 {
+    margin-top: 3.5rem;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.resto > .texto > p {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    width: 17rem;
+    padding: 0 0 2rem 0;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.final {
+    height: 5rem;
+    border-bottom: 1px solid #000000;
+}

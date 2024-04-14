@@ -1,0 +1,63 @@
+.containerFaq {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+.liTop {
+    height: 5rem;
+    border-bottom: 1px solid #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.containerFaq > .sidesFaq  {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+.leftFaq > h1 {
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+}
+
+.rightFaq {
+    width: 35rem;
+    margin-top: 5rem;
+}
+
+.rightFaq > .faq {
+    border-bottom: 1px solid #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question > h3 {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.answer > p {
+    font-family: "Montserrat";
+    color: #C6C6C6;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}

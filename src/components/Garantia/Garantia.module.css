@@ -1,0 +1,120 @@
+.allContainer {
+    width: 100%;
+    height: auto;
+    padding: 8rem 0 0 0;
+    background-color: #B96D79;
+    display: flex;
+    flex-direction: column;
+}
+
+.allContainer > .garantiaContainer {
+    width: 100%;
+    padding-left: 12rem;
+    height: 20rem;
+    display: flex;
+}
+
+.garantiaContainer > .leftImg {
+    background-image: url("/img/Garantia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 18rem;
+}
+
+.garantiaContainer > .rightGarantia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 3rem;
+    width: 40rem;
+    margin-top: 5.5rem;
+    gap: 1.8rem;
+}
+
+.rightGarantia > p {
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.allContainer > .mentoraContainer {
+    width: 100%;
+    height: auto;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    display: flex;
+}
+
+.mentoraContainer > .leftMentora {
+    width: 50%;
+}
+
+.mentoraContainer > .leftMentora > h1 {
+    font-family: "Montserrat";
+    color: #C6C6C6;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.leftMentora > .juntarWords {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.juntarWords > h1 {
+    color: #C6C6C6;
+    font-family: "Montserrat";
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.juntarWords > .mentora {
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.leftMentora > .txtMentora {
+    margin-top: 2rem;
+}
+
+.txtMentora > p {
+    font-family: "Montserrat";
+    color: #ffffff;
+    line-height: 1.5rem;
+}
+
+.leftMentora > .btnGarantia {
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 1.6rem 1.8rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background: linear-gradient(100deg, rgba(40,126,85,1) 0%, rgba(66,174,124,1) 100%);
+    margin-top: 2rem;
+}
+
+.leftMentora > .btnGarantia:hover {
+    transform: scale(1.1);
+}
+
+.btnGarantia > a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.mentoraContainer > .rightImg {
+    background-image: url("/img/mentora.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 37rem;
+    margin-right: 5rem;
+}
